@@ -1,15 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
 }
 
-html,
-body {
-    overflow: hidden;
+body,
+html {
     height: 100%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
+.modal-header {
+    height: 20vh;
+    background: linear-gradient(rgba(173, 15, 12, 1), rgba(204, 28, 25));
+}
+
+.modal-body {
+    height: 60vh;
+}
+
+.modal-footer {
+    height: 10vh;
+}
+
+.modal-footer button {
+    color: #fff;
+    background-color: rgb(253, 185, 72);
 }
