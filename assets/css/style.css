@@ -1,0 +1,52 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+button{
+    background-color: rgb(253,185,72) !important;
+    color: #fff !important;
+}
+
+button:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #ED960A;
+    transition: all 0.2s ease;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.body-body{
+    height: 67vh;
+}
+
+.body-body .img{
+    height: 35vh;
+    background-image: url("../img/SVGArtB.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+.body-footer{
+    height: 33vh;
+    background-image: url("../img/footer.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1950px 400px;
+}
+
+.modal-body{
+    height: 74vh;
+}
+
+.modal-header {
+    height: 17vh;
+    background-image: url("../img/header.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
