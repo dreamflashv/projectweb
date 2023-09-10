@@ -1,14 +1,9 @@
-* {
-    padding: 0%;
-    margin: 0%;
-}
-
-button{
-    background-color: rgb(253,185,72) !important;
+button {
+    background-color: rgb(253, 185, 72) !important;
     color: #fff !important;
 }
 
-button:hover{
+button:hover {
     color: rgba(255, 255, 255, 1) !important;
     box-shadow: 0 4px 16px #ED960A;
     transition: all 0.2s ease;
@@ -19,27 +14,35 @@ html {
     height: 100%;
 }
 
-.body-body{
-    height: 67vh;
+/********************************************/
+.body-body {
+    height: 67%;
 }
 
-.body-body .img{
-    height: 35vh;
+.body-footer {
+    height: 33%;
+    background-image: url("../img/footer.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1920px 400px;
+}
+
+.mt-max{
+    margin-top: 3.5rem;
+}
+/********************************************/
+
+.body-body .img {
+    height: 58%;
     background-image: url("../img/SVGArtB.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
 
 }
-.body-footer{
-    height: 33vh;
-    background-image: url("../img/footer.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1950px 400px;
-}
 
-.modal-body{
+
+.modal-body {
     height: 74vh;
 }
 
