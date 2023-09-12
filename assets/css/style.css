@@ -15,19 +15,15 @@ button {
     color: #fff !important;
 }
 
+button:hover{
+   /**/
+}
+
 span{
     font-family: "Montserrat-Regular";
     font-size: 18px;
     color: #fff;
 }
-
-/*
-button:hover {
-    color: rgba(255, 255, 255, 1) !important;
-    box-shadow: 0 4px 16px #ED960A;
-    transition: all 0.2s ease;
-}
-*/
 
 body,
 html {
@@ -38,6 +34,18 @@ html {
     height: 64%;
 }
 
+.body-body .logo {
+    height: 25%;
+}
+
+.body-body .img {
+    height: 55%;
+    background-image: url("../img/SVGArtB.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 .body-footer {
     height: 36%;
     background-image: url("../img/footer.svg");
@@ -46,27 +54,12 @@ html {
     background-size: auto 400px;
 }
 
-.mt-max{
-    margin-top: 3.5rem;
-}
-/********************************************/
-
-.body-body .img {
-    height: 58%;
-    background-image: url("../img/SVGArtB.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-
-}
-
-
 .modal-body {
-    height: 74vh;
+    height: 74%;
 }
 
 .modal-header {
-    height: 17vh;
+    height: 17%;
     background-image: url("../img/header.svg");
     background-repeat: no-repeat;
     background-position: center;
